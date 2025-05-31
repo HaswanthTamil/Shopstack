@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Apple iPhone 14 Pro",
+    "brand": "Apple",
+    "price": 1299,
+    "description": "6.1-inch Super Retina XDR display, A16 Bionic chip, 48MP main camera.",
+    "imageUrl": "https://m.media-amazon.com/images/I/61nzPMNY8zL._SL1500_.jpg",
+    "createdAt": "2024-05-01T10:00:00Z",
+    "rating": 5,
+    "category": "smartphones"
+  },
+  {
+    "name": "Samsung Galaxy S23 Ultra",
+    "brand": "Samsung",
+    "price": 1199,
+    "description": "6.8-inch AMOLED display, 200MP camera, Snapdragon 8 Gen 2.",
+    "imageUrl": "https://m.media-amazon.com/images/I/61RZDb2mQxL._SL1500_.jpg",
+    "createdAt": "2024-04-15T09:30:00Z",
+    "rating": 4,
+    "category": "smartphones"
+  },
+  {
+    "name": "Sony WH-1000XM5 Wireless Headphones",
+    "brand": "Sony",
+    "price": 399,
+    "description": "Industry-leading noise cancellation with up to 30 hours battery life.",
+    "imageUrl": "https://m.media-amazon.com/images/I/61D+6gKjUXL._SL1500_.jpg",
+    "createdAt": "2024-03-10T08:20:00Z",
+    "rating": 4,
+    "category": "headphones"
+  },
+  {
+    "name": "Apple MacBook Air M2",
+    "brand": "Apple",
+    "price": 1199,
+    "description": "13.6-inch Liquid Retina display, M2 chip, 8GB RAM, 256GB SSD.",
+    "imageUrl": "https://m.media-amazon.com/images/I/71vFKBpKakL._SL1500_.jpg",
+    "createdAt": "2024-02-20T07:45:00Z",
+    "rating": 5,
+    "category": "laptops"
+  },
+  {
+    "name": "ASUS ROG Strix G16 Gaming Laptop",
+    "brand": "ASUS",
+    "price": 1599,
+    "description": "16-inch FHD 165Hz, Intel i9, RTX 4070, 16GB RAM, 1TB SSD.",
+    "imageUrl": "https://m.media-amazon.com/images/I/81oKZyZ5emL._SL1500_.jpg",
+    "createdAt": "2024-01-30T06:15:00Z",
+    "rating": 4,
+    "category": "laptops"
+  },
+  {
+    "name": "boAt Airdopes 441 TWS Earbuds",
+    "brand": "boAt",
+    "price": 29,
+    "description": "IPX7 water resistance, 25H total playback, Bluetooth 5.0.",
+    "imageUrl": "https://m.media-amazon.com/images/I/51HBom8xz7L._SL1500_.jpg",
+    "createdAt": "2024-05-10T12:00:00Z",
+    "rating": 3,
+    "category": "earbuds"
+  }
+]

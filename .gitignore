@@ -1,4 +1,87 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# https://github.com/HaswanthTamil/Shopstack
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+.env
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# IDEs & editors
+.vscode/
+.idea/
+*.sw?
+
+# local OS-specific
+Thumbs.db
+ehthumbs.db
+
+# logs
+logs/
+*.log
+
+# optional: npm cache
+.npm/
+
+# optional: macOS weirdness
+*.DS_Store
+
+# optional: Linux file
+*.pid
+
+# Playwright / Cypress (if you add e2e tests later)
+/playwright-report
+/test-results/
+cypress/screenshots/
+cypress/videos/
+
+# optional: Turbo repo stuff
+/dist/
+.turbo/
+
+# optional: local backup or temp files
+*.local
+*.tmp
+*.bak
+*.orig
+
+# Optional if using Prettier
+.prettiercache
 
 # dependencies
 /node_modules
