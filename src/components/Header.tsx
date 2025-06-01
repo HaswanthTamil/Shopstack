@@ -5,9 +5,15 @@ import Location from "./Location"
 import SearchBar from "./SearchBar"
 import InitLocalStorage from "@/lib/InitLocalStorage"
 import HeaderAccounts from "./HeaderAccounts"
+import { useState, useEffect } from "react"
 
 const Header = () => {
-  const isSignedIn: boolean = localStorage.getItem("isSignedIn") === "true"
+  const [isSignedIn, setIsSignedIn] = useState(false)
+  useEffect(() => {
+    const storedValue = localStorage.getItem("isSignedIn")
+    const parsed = storedValue === "true"
+    setIsSignedIn(parsed)
+  }, [])
   return (
     <div className="flex flex-col items-center justify-between">
       <div className="header bg-gray-900 px-0 py-1 m-0 flex flex-row w-[100vw] text-white">

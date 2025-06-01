@@ -1,3 +1,5 @@
+"use client"
+
 import RedirectBtn from "@/components/RedirectBtn"
 
 const SignUp = () => {
