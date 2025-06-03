@@ -57,7 +57,7 @@ const ProductPage = () => {
         page="/"
         classAtr="bg-black text-white px-2 py-1 rounded hover:opacity-80 absolute top-2 right-2 text-xl"
       />
-      <h1 className="text-2xl font-bold">{product.name}</h1>
+      <h1 className="text-lg sm:text-2xl font-bold">{product.name}</h1>
       <Image
         src={product.imageUrl}
         alt={product.name}
