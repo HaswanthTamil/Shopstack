@@ -1,7 +1,14 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from "next"
 
 const nextConfig: NextConfig = {
-  /* config options here */
-};
+  images: {
+    domains: [
+      "m.media-amazon.com",
+      "images.unsplash.com",
+      "resource.logitechg.com",
+      "store.storeimages.cdn-apple.com",
+    ],
+  },
+}
 
-export default nextConfig;
+export default nextConfig

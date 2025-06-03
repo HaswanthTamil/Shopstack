@@ -20,16 +20,6 @@
     "category": "smartphones"
   },
   {
-    "name": "Sony WH-1000XM5 Wireless Headphones",
-    "brand": "Sony",
-    "price": 399,
-    "description": "Industry-leading noise cancellation with up to 30 hours battery life.",
-    "imageUrl": "https://m.media-amazon.com/images/I/61D+6gKjUXL._SL1500_.jpg",
-    "createdAt": "2024-03-10T08:20:00Z",
-    "rating": 4,
-    "category": "headphones"
-  },
-  {
     "name": "Apple MacBook Air M2",
     "brand": "Apple",
     "price": 1199,
@@ -40,16 +30,6 @@
     "category": "laptops"
   },
   {
-    "name": "ASUS ROG Strix G16 Gaming Laptop",
-    "brand": "ASUS",
-    "price": 1599,
-    "description": "16-inch FHD 165Hz, Intel i9, RTX 4070, 16GB RAM, 1TB SSD.",
-    "imageUrl": "https://m.media-amazon.com/images/I/81oKZyZ5emL._SL1500_.jpg",
-    "createdAt": "2024-01-30T06:15:00Z",
-    "rating": 4,
-    "category": "laptops"
-  },
-  {
     "name": "boAt Airdopes 441 TWS Earbuds",
     "brand": "boAt",
     "price": 29,
@@ -57,6 +37,56 @@
     "imageUrl": "https://m.media-amazon.com/images/I/51HBom8xz7L._SL1500_.jpg",
     "createdAt": "2024-05-10T12:00:00Z",
     "rating": 3,
-    "category": "earbuds"
+    "category": "headphones"
+  },
+  {
+    "name": "Wireless Noise Cancelling Headphones",
+    "brand": "Sony",
+    "price": 299.99,
+    "description": "Premium noise cancelling with crystal-clear sound and 20 hours battery life.",
+    "imageUrl": "https://m.media-amazon.com/images/I/71o8Q5XJS5L._AC_SL1500_.jpg",
+    "createdAt": "2024-04-05T11:30:00Z",
+    "rating": 4,
+    "category": "headphones"
+  },
+  {
+    "name": "Smartwatch Series 9",
+    "brand": "Apple",
+    "price": 399.99,
+    "description": "Latest generation smartwatch with advanced health tracking and always-on Retina display.",
+    "imageUrl": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=600&q=80",
+    "createdAt": "2024-03-12T09:00:00Z",
+    "rating": 5,
+    "category": "watches"
+  },
+  {
+    "name": "Gaming Mouse G502",
+    "brand": "Logitech",
+    "price": 49.99,
+    "description": "High precision gaming mouse with customizable buttons and RGB lighting.",
+    "imageUrl": "https://resource.logitechg.com/content/dam/gaming/en/products/g502-hero/g502-hero-gallery-1.png",
+    "createdAt": "2024-05-02T14:45:00Z",
+    "rating": 3,
+    "category": "electronics"
+  },
+  {
+    "name": "Echo Dot (5th Gen)",
+    "brand": "Amazon",
+    "price": 39.99,
+    "description": "Compact smart speaker with Alexa, perfect for hands-free control and music streaming.",
+    "imageUrl": "https://m.media-amazon.com/images/I/61u0y9ADElL._AC_SL1000_.jpg",
+    "createdAt": "2024-01-25T08:00:00Z",
+    "rating": 4,
+    "category": "smart home"
+  },
+  {
+    "name": "UltraWide Monitor 34”",
+    "brand": "LG",
+    "price": 499.99,
+    "description": "34-inch ultrawide monitor with curved display and vibrant colors, perfect for multitasking.",
+    "imageUrl": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=600&q=80",
+    "createdAt": "2024-02-18T10:15:00Z",
+    "rating": 5,
+    "category": "electronics"
   }
 ]
