@@ -7,6 +7,10 @@ const nextConfig: NextConfig = {
       "images.unsplash.com",
       "resource.logitechg.com",
       "store.storeimages.cdn-apple.com",
+      "unsplash.com",
+      "plus.unsplash.com",
+      "in.pinterest.com",
+      "i.pinimg.com",
     ],
   },
 }

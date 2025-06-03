@@ -1,6 +1,5 @@
 "use client"
 
-import { Bars3Icon } from "@heroicons/react/24/solid"
 import { MagnifyingGlassIcon } from "@heroicons/react/24/solid"
 
 interface SearchBarProps {
@@ -24,9 +23,7 @@ const SearchBar = ({ classAtr }: SearchBarProps) => {
         <button
           className="flex items-center border border-transparent hover:border-black sm:hover:border-white transition-border duration-200 p-2 rounded mr-2"
           onClick={() => console.log("hello")}
-        >
-          <Bars3Icon className="h-6 w-6" />
-        </button>
+        ></button>
       </div>
     </div>
   )
