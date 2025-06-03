@@ -38,7 +38,7 @@ const Header: React.FC<HeaderProps> = ({ onSearch }) => {
           />
           <Location />
 
-          <div className="header-search hidden sm:block text-white w-full">
+          <div className="header-search hidden sm:block text-white flex-grow">
             <SearchBar
               classAtr="search w-full border-2 border-red-400 rounded-md mt-1"
               onSearch={onSearch}
