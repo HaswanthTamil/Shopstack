@@ -14,7 +14,11 @@ type Product = {
   category: string
 }
 
-const HomeFeed = () => {
+interface HomeFeedProps {
+  searchTerm: string
+}
+
+const HomeFeed: React.FC<HomeFeedProps> = ({ searchTerm }) => {
   const [products, setProducts] = useState<Product[]>([])
 
   useEffect(() => {
@@ -30,9 +34,20 @@ const HomeFeed = () => {
 
     fetchProducts()
   }, [])
+
+  const filteredProducts = products.filter((item) => {
+    const term = searchTerm.toLowerCase()
+    return (
+      item.name.toLowerCase().includes(term) ||
+      item.brand.toLowerCase().includes(term) ||
+      item.category.toLowerCase().includes(term) ||
+      item.description.toLowerCase().includes(term)
+    )
+  })
+
   return (
     <div className="grid grid-cols-2 sm:grid-cols-3 w-full">
-      {products.map((item, idx) => (
+      {filteredProducts.map((item, idx) => (
         <ProductCard
           key={idx}
           title={item.name}

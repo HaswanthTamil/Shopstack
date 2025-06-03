@@ -7,7 +7,11 @@ import InitLocalStorage from "@/lib/InitLocalStorage"
 import HeaderAccounts from "./HeaderAccounts"
 import { useState, useEffect } from "react"
 
-const Header = () => {
+interface HeaderProps {
+  onSearch: (value: string) => void
+}
+
+const Header: React.FC<HeaderProps> = ({ onSearch }) => {
   const [isSignedIn, setIsSignedIn] = useState(false)
   useEffect(() => {
     const storedValue = localStorage.getItem("isSignedIn")
@@ -15,7 +19,7 @@ const Header = () => {
     setIsSignedIn(parsed)
   }, [])
   return (
-    <div className="flex flex-col items-center justify-between">
+    <div className="flex flex-col items-center justify-between mb-0 sm:mb-4">
       <div className="header bg-gray-900 px-0 py-1 m-0 flex flex-row w-[100vw] text-white">
         <div className="header-left flex px-2 py-1 w-2/3 items-center gap-1">
           <Image
@@ -35,7 +39,10 @@ const Header = () => {
           <Location />
 
           <div className="header-search hidden sm:block text-white w-full">
-            <SearchBar classAtr="search w-full border-2 border-red-400 rounded-md mt-1" />
+            <SearchBar
+              classAtr="search w-full border-2 border-red-400 rounded-md mt-1"
+              onSearch={onSearch}
+            />
           </div>
         </div>
         <div className="header-right flex px-3 py-1 w-1/3 text-white items-center justify-end gap-1">
@@ -43,7 +50,10 @@ const Header = () => {
         </div>
       </div>
 
-      <SearchBar classAtr="search block sm:hidden w-5/6 border-2 border-red-400 rounded-md mt-1" />
+      <SearchBar
+        classAtr="search block sm:hidden w-5/6 border-2 border-red-400 rounded-md mt-1"
+        onSearch={onSearch}
+      />
       <InitLocalStorage />
     </div>
   )
